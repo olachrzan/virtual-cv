@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectStatus } from "../homepageSlice";
 import { Tiles } from "./Tiles";
 import { useEffect } from "react";
+import { Loader } from "./Loader";
 
 export const Portfolio = () => {
   const status = useSelector(selectStatus);
@@ -18,7 +19,7 @@ export const Portfolio = () => {
       <Paragraph>My recent projects</Paragraph>
       {
         status === "loading"
-          ? (<p>loading</p>)
+          ? (<Loader />)
           : (status === "error"
             ? (<p>error</p>)
             : (<Tiles />)
