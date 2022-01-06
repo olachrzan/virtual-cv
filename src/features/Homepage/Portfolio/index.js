@@ -1,5 +1,5 @@
 import { Paragraph, Title, Wrapper } from "./styled";
-import { ReactComponent as Logo } from "./githubLogo.svg";
+import { ReactComponent as GithubLogo } from "./github_blue.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchRepositories, selectStatus } from "../homepageSlice";
 import { Tiles } from "./Tiles";
@@ -15,7 +15,7 @@ export const Portfolio = () => {
 
   return (
     <Wrapper>
-      <Logo />
+      <GithubLogo />
       <Title>Portfolio</Title>
       <Paragraph>My recent projects</Paragraph>
       {
