@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   max-width: 1216px;
-  margin: 0 auto;
+  margin: 0 auto 140px;
   text-align: center;
 `;
 
@@ -21,5 +21,4 @@ export const Paragraph = styled.p`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 0.05em;
-
 `;

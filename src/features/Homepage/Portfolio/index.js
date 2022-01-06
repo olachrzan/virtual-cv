@@ -5,12 +5,13 @@ import { fetchRepositories, selectStatus } from "../homepageSlice";
 import { Tiles } from "./Tiles";
 import { useEffect } from "react";
 import { Loader } from "./Loader";
+import { Error } from "./Error";
 
 export const Portfolio = () => {
   const status = useSelector(selectStatus);
   const dispatch = useDispatch();
 
-  useEffect(() => dispatch(fetchRepositories()), []);
+  useEffect(() => dispatch(fetchRepositories()), [dispatch]);
 
   return (
     <Wrapper>
@@ -21,7 +22,7 @@ export const Portfolio = () => {
         status === "loading"
           ? (<Loader />)
           : (status === "error"
-            ? (<p>error</p>)
+            ? (<Error />)
             : (<Tiles />)
           )
       }
