@@ -1,3 +1,4 @@
+import { Footer } from "./features/Homepage/Footer";
 import { PersonInfo } from "./features/Homepage/PersonInfo";
 import { Portfolio } from "./features/Homepage/Portfolio";
 import { Skills } from "./features/Homepage/Skills";
@@ -11,6 +12,7 @@ function App() {
       <Skills />
       <WantToLearn />
       <Portfolio />
+      <Footer />
     </>
   );
 }

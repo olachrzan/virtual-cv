@@ -10,6 +10,7 @@ export const ButtonLink = styled.a`
   font-weight: 600;
   font-size: 20px;
   letter-spacing: 0.05em;
+  cursor: pointer;
 
   &:hover {
     box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
