@@ -36,7 +36,7 @@ export const Description = styled.p`
 `;
 
 export const LinkLine = styled.p`
-  margin: 8px 0 0;
+  margin: 10px 0 0;
   line-height: 140%;
   letter-spacing: 0.05em;
 `;

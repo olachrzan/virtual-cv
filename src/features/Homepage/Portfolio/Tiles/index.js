@@ -12,24 +12,24 @@ export const Tiles = () => {
           <Title>{repo.name}</Title>
           <Description>{repo.description}</Description>
           <LinkLine>
-            Link to{" "}
+            Link to:{" "}
             <Link
               href={`https://${repo.owner.login}.github.io/${repo.name}`}
               title={`https://${repo.owner.login}.github.io/${repo.name}`}
               target="_blank"
               rel="noreferrer noopener"
             >
-              demo
+              demo of this project
             </Link>
           </LinkLine>
           <LinkLine>
-            Link to{" "}
+            Link to:{" "}
             <Link
               href={repo.html_url}
               target="_blank"
               rel="noreferrer noopener"
             >
-              code
+              code of this project
             </Link>
           </LinkLine>
         </Tile>
