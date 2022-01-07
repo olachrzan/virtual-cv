@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
+export const TilesWrapper = styled.div`
   margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 32px;
 `;
 
-export const Container = styled.div`
+export const Tile = styled.div`
   max-width: 592px;
   padding: 56px;
   text-align: left;
