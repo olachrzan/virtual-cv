@@ -9,6 +9,13 @@ export const Error = () => (
     <Text>
       Sorry, failed to load Github projects.<br />You can check them directly on Github.
     </Text>
-    <ButtonLink>Go to Github</ButtonLink>
+    <ButtonLink
+      href="https://github.com/olachrzan"
+      title="https://github.com/olachrzan"
+      target="_blank"
+      rel="noreferrer noopener"
+    >
+      Go to Github
+    </ButtonLink>
   </Wrapper>
 )
