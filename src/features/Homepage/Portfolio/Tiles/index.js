@@ -26,6 +26,7 @@ export const Tiles = () => {
             Link to:{" "}
             <Link
               href={repo.html_url}
+              title={repo.html_url}
               target="_blank"
               rel="noreferrer noopener"
             >
