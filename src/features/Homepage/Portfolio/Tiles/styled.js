@@ -5,6 +5,11 @@ export const TilesWrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
+  justify-items: center;
+  
+  @media (max-width: 840px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const Tile = styled.div`
@@ -19,6 +24,10 @@ export const Tile = styled.div`
   &:hover {
     border: 6px solid rgba(3, 102, 214, 0.2);
   }
+
+  @media (max-width: 481px) {
+    padding: 24px;
+  }
 `;
 
 export const Title = styled.h3`
@@ -27,18 +36,33 @@ export const Title = styled.h3`
   font-size: 24px;
   line-height: 29px;
   letter-spacing: 0.05em;
+
+  @media (max-width: 481px) {
+    font-size: 16px;
+  }
 `;
 
 export const Description = styled.p`
   margin: 24px 0;
   line-height: 140%;
   letter-spacing: 0.05em;
+  font-size: 18px;
+
+  @media (max-width: 481px) {
+    margin-top: 16px;
+    font-size: 14px;
+  }
 `;
 
 export const LinkLine = styled.p`
   margin: 10px 0 0;
   line-height: 140%;
   letter-spacing: 0.05em;
+  font-size: 18px;
+
+  @media (max-width: 481px) {
+    font-size: 14px;
+  }
 `;
 
 export const Link = styled.a`
