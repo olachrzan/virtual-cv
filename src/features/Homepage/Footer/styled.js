@@ -28,7 +28,6 @@ export const Email = styled(Link)`
   font-weight: 900;
   font-size: 32px;
   line-height: 39px;
-  letter-spacing: 0.05em;
 
   @media (max-width: 481px) {
     font-size: 18px;
@@ -41,7 +40,6 @@ export const Paragraph = styled.p`
   color: ${({ theme }) => theme.colors.mineShaft};
   font-size: 18px;
   line-height: 140%;
-  letter-spacing: 0.05em;
 
   @media (max-width: 481px) {
     font-size: 14px;
