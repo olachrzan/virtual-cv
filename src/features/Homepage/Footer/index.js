@@ -1,6 +1,6 @@
 import { useWindowWidth } from "../useWindowWidth";
 import { email } from "../email";
-import { Email, Icons, LetsTalk, Link, Paragraph, Wrapper } from "./styled";
+import { Email, Icons, LetsTalk, Link, Paragraph } from "./styled";
 import { ReactComponent as GithubLogo } from "./logos/github_black.svg";
 import { ReactComponent as LinkedInLogo } from "./logos/linkedIN_black.svg";
 import { ReactComponent as FacebookLogo } from "./logos/facebook_black.svg";
@@ -9,7 +9,7 @@ export const Footer = () => {
   const iconSize = useWindowWidth();
 
   return (
-    <Wrapper>
+    <>
       <LetsTalk>Let's talk!</LetsTalk>
       <Email href={`mailto:${email}`} title={email}>{email}</Email>
       <Paragraph>
@@ -26,6 +26,6 @@ export const Footer = () => {
           <FacebookLogo width={iconSize()} height={iconSize()} />
         </Link>
       </Icons>
-    </Wrapper>
+    </>
   )
 }
