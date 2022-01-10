@@ -35,8 +35,8 @@ export const Email = styled(Link)`
 `;
 
 export const Paragraph = styled.p`
-  max-width: 670px;
-  margin: 24px 0 56px;
+  max-width: 600px;
+  margin: 24px 0 48px;
   color: ${({ theme }) => theme.colors.mineShaft};
   font-size: 18px;
   line-height: 140%;
