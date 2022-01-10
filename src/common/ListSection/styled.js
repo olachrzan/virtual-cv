@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
   margin: 72px 0;
@@ -49,19 +49,30 @@ export const List = styled.ul`
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0 20px;
+  gap: 0 20px;
   list-style: none;
   line-height: 140%;
   font-size: 18px;
 
-  @media (max-width: 769px) {
+  @media (max-width: 870px) {
     grid-template-columns: repeat(2, 1fr);
-  }
+  };
 
   @media (max-width: 481px) {
     grid-template-columns: 1fr;
     font-size: 14px;
-  }
+  };
+
+  ${({ longList }) => longList && css`
+    max-height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    @media (max-width: 870px) {
+    max-height: 500px;
+  };
+  `};
 `;
 
 export const Item = styled.li`
