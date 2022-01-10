@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.colors.slateGray};
     letter-spacing: 0.05em;
 
-    @media (max-width: 769px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.medium}) {
       padding: 32px 16px;
   }
   }

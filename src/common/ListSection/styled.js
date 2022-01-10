@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     margin: 50px auto;
     padding: 16px;
   }
@@ -20,7 +20,7 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.colors.mineShaft};
   line-height: 36px;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     font-size: 18px;
   }
 `;
@@ -28,7 +28,7 @@ export const Title = styled.h2`
 export const Icon = styled.img`
   height: 28px;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     height: 16px;
   }
 `;
@@ -39,7 +39,7 @@ export const Line = styled.hr`
   height: 1px;
   border: none;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     margin-bottom: 12px;
   }
 `;
@@ -54,11 +54,11 @@ export const List = styled.ul`
   line-height: 140%;
   font-size: 18px;
 
-  @media (max-width: 870px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
     grid-template-columns: repeat(2, 1fr);
   };
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     grid-template-columns: 1fr;
     font-size: 14px;
   };
@@ -69,7 +69,7 @@ export const List = styled.ul`
     flex-wrap: wrap;
     flex-direction: column;
 
-    @media (max-width: 870px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.large}) {
     max-height: 500px;
   };
   `};
@@ -84,7 +84,7 @@ export const Item = styled.li`
     padding-right: 16px;
     color: ${({ theme }) => theme.colors.lightModeBlue};
 
-    @media (max-width: 481px) {
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
       font-size: 20px;
       padding-right: 8px;
     }

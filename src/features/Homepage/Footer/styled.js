@@ -7,7 +7,7 @@ export const LetsTalk = styled.p`
   font-size: 12px;
   line-height: 130%;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     margin-bottom: 12px;
   }
 `;
@@ -29,7 +29,7 @@ export const Email = styled(Link)`
   font-size: 32px;
   line-height: 39px;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     font-size: 18px;
   }
 `;
@@ -41,7 +41,7 @@ export const Paragraph = styled.p`
   font-size: 18px;
   line-height: 140%;
 
-  @media (max-width: 481px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     font-size: 14px;
     margin: 12px 0 40px;
   }
