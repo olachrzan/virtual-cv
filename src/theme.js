@@ -6,6 +6,7 @@ export const theme = {
     darkModeBlue: "#2188FF",
     slateGray: "#6E7E91",
     mineShaft: "#252525",
+    mercury: "#E5E5E5"
   },
   breakpoints: {
     small: "481px",
