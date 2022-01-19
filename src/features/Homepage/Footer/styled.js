@@ -14,12 +14,12 @@ export const LetsTalk = styled.p`
 
 export const Link = styled.a`
   margin-right: 24px;
-  color: ${({ theme }) => theme.colors.mineShaft};
+  color: ${({ theme }) => theme.colors.secondFont};
   transition: color 0.2s linear;
   cursor: pointer;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.lightModeBlue};
+    color: ${({ theme }) => theme.colors.blue};
   }
 `;
 
@@ -37,7 +37,7 @@ export const Email = styled(Link)`
 export const Paragraph = styled.p`
   max-width: 600px;
   margin: 24px 0 48px;
-  color: ${({ theme }) => theme.colors.mineShaft};
+  color: ${({ theme }) => theme.colors.secondFont};
   font-size: 18px;
   line-height: 140%;
 
