@@ -8,6 +8,10 @@ export const Wrapper = styled.header`
   grid-gap: 66px;
   align-items: center;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.extraLarge}) {
+    grid-gap: 30px;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoints.medium}) {
     grid-template-columns: 1fr;
     grid-gap: 12px;
