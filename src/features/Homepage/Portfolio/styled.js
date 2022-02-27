@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as GithubLogo } from "./github_blue.svg";
 
 export const Wrapper = styled.div`
   margin-bottom: 140px;
@@ -6,6 +7,16 @@ export const Wrapper = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     margin-bottom: 48px;
+  }
+`;
+
+export const Logo = styled(GithubLogo)`
+  width: 48px;
+  height: 48px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    width: 32px;
+    height: 32px;
   }
 `;
 

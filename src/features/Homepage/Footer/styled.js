@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import { ReactComponent as Github } from "./logos/github_black.svg";
+import { ReactComponent as LinkedIn } from "./logos/linkedIN_black.svg";
+import { ReactComponent as Facebook } from "./logos/facebook_black.svg";
 
 export const LetsTalk = styled.p`
   margin-bottom: 24px;
@@ -10,6 +13,23 @@ export const LetsTalk = styled.p`
   @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     margin-bottom: 12px;
   }
+`;
+
+export const Paragraph = styled.p`
+  max-width: 600px;
+  margin: 24px 0 48px;
+  color: ${({ theme }) => theme.colors.secondFont};
+  font-size: 18px;
+  line-height: 140%;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    font-size: 14px;
+    margin: 12px 0 40px;
+  }
+`;
+
+export const Icons = styled.div`
+  display: flex;
 `;
 
 export const Link = styled.a`
@@ -34,19 +54,23 @@ export const Email = styled(Link)`
   }
 `;
 
-export const Paragraph = styled.p`
-  max-width: 600px;
-  margin: 24px 0 48px;
-  color: ${({ theme }) => theme.colors.secondFont};
-  font-size: 18px;
-  line-height: 140%;
-
+export const GithubLogo = styled(Github)`
   @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
-    font-size: 14px;
-    margin: 12px 0 40px;
+    width: 32px;
+    height: 32px;
   }
 `;
 
-export const Icons = styled.div`
-  display: flex;
+export const LinkedInLogo = styled(LinkedIn)`
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    width: 32px;
+    height: 32px;
+  }
+`;
+
+export const FacebookLogo = styled(Facebook)`
+  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    width: 32px;
+    height: 32px;
+  }
 `;
