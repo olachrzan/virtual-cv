@@ -1,6 +1,6 @@
 const breakpoints = {
   small: "481px",
-  medium: "769px",
+  medium: "768px",
   large: "870px",
   extraLarge: "1024px",
 }
