@@ -32,7 +32,7 @@ export const Tile = styled.div`
 
 export const Title = styled.h3`
   margin: 0;
-  color: ${({ theme }) => theme.colors.blue};
+  color: ${({ theme }) => theme.colors.blueElements};
   font-size: 24px;
   line-height: 29px;
 
@@ -64,7 +64,7 @@ export const LinkLine = styled.p`
 
 export const Link = styled.a`
   text-decoration: none;
-  color: ${({ theme }) => theme.colors.blue};
+  color: ${({ theme }) => theme.colors.blueElements};
   border-bottom: 1px solid rgb(3, 102, 214, 0.2);
 
   &:hover {

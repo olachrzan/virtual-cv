@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ButtonLink = styled.a`
-  background: ${({ theme }) => theme.colors.blue};
+  background: ${({ theme }) => theme.colors.blueElements};
   color: white;
   padding: 12px 16px;
   text-decoration: none;

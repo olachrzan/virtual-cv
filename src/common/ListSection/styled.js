@@ -82,7 +82,7 @@ export const Item = styled.li`
     content: "•";
     font-size: 24px;
     padding-right: 16px;
-    color: ${({ theme }) => theme.colors.blue};
+    color: ${({ theme }) => theme.colors.blueElements};
 
     @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
       font-size: 20px;

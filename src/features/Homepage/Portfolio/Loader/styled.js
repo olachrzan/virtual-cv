@@ -17,7 +17,7 @@ export const Spinner = styled.div`
   width: 160px;
   height: 160px;
   border: 14px solid ${({ theme }) => theme.colors.spinnerBorder};
-  border-top-color: ${({ theme }) => theme.colors.blue};
+  border-top-color: ${({ theme }) => theme.colors.blueElements};
   border-radius: 50%;
   animation-name: ${rotation};
   animation-duration: 1.5s;

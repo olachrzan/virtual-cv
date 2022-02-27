@@ -19,7 +19,7 @@ export const Link = styled.a`
   cursor: pointer;
 
   &:hover {
-    color: ${({ theme }) => theme.colors.blue};
+    color: ${({ theme }) => theme.colors.blueElements};
   }
 `;
 

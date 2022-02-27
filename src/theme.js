@@ -9,7 +9,7 @@ export const lightTheme = {
   breakpoints: breakpoints,
   colors: {
     background: "#FBFBFE",
-    blue: "#0366D6",
+    blueElements: "#0366D6",
     mainFont: "#6E7E91",
     secondFont: "#252525",
     sectionsBackground: "#FFFFFF",
@@ -25,7 +25,7 @@ export const darkTheme = {
   breakpoints: breakpoints,
   colors: {
     background: "#252525",
-    blue: "#2188FF",
+    blueElements: "#2188FF",
     mainFont: "#FFFFFF",
     secondFont: "#FFFFFF",
     sectionsBackground: "#313131",
