@@ -14,13 +14,16 @@ export const Wrapper = styled.div`
 `;
 
 export const Title = styled.h2`
-  margin: 0;
+  margin: 0 0 32px 0;
+  padding-bottom: 15px;
   font-size: 30px;
   font-weight: 900;
   color: ${({ theme }) => theme.colors.secondFont};
   line-height: 36px;
+  border-bottom: 1px solid rgba(209, 213, 218, 0.3);
 
   @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+    margin-bottom: 12px;
     font-size: 18px;
   }
 `;
@@ -30,17 +33,6 @@ export const Icon = styled.img`
 
   @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
     height: 16px;
-  }
-`;
-
-export const Line = styled.hr`
-  margin-bottom: 32px;
-  background: rgba(209, 213, 218, 0.3);
-  height: 1px;
-  border: none;
-
-  @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
-    margin-bottom: 12px;
   }
 `;
 
