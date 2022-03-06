@@ -21,7 +21,6 @@ You can find the demo [here](https://olachrzan.github.io/virtual_cv/)
 - JavaScript (ES6+)
 - Promise, async / await
 - Create React App
-- React Hooks
 - Styled Components
 - Redux
 - Redux-Saga
