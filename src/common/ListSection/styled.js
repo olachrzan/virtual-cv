@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components";
 
-export const Wrapper = styled.div`
+export const Wrapper = styled.section`
   margin: 72px 0;
   padding: 32px;
   background: ${({ theme }) => theme.colors.sectionsBackground};
