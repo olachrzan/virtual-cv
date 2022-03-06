@@ -17,7 +17,8 @@ const homepageSlice = createSlice({
       state.status = "error"
     },
     setRepositories: (state, { payload }) => {
-      state.repositories = payload.sort((a, b) => b.created_at.localeCompare(a.created_at));
+      const repos = [...payload];
+      state.repositories = repos.sort((a, b) => b.created_at.localeCompare(a.created_at));
     }
   }
 });
