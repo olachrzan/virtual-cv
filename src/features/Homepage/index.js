@@ -1,4 +1,4 @@
-import { Container } from "../../common/Container";
+import { Wrapper } from "../../common/Wrapper/styled";
 import { ThemeSwitcher } from "../../common/ThemeSwitcher";
 import { Footer } from "./Footer";
 import { PersonInfo } from "./PersonInfo";
@@ -8,14 +8,14 @@ import { WantToLearn } from "./WantToLearn";
 
 
 const Homepage = () => (
-  <Container>
+  <Wrapper>
     <ThemeSwitcher />
     <PersonInfo />
     <Skills />
     <WantToLearn />
     <Portfolio />
     <Footer />
-  </Container>
+  </Wrapper>
 );
 
 export default Homepage;
