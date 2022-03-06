@@ -3,14 +3,13 @@ import { selectRepositories } from "../../homepageSlice";
 import { TilesWrapper, Tile, Title, Description, LinkLine, Link } from "./styled";
 
 export const Tiles = () => {
-  const allRepos = useSelector(selectRepositories);
   const unwantedReposNames = ["olachrzan", "virtual_cv"];
-  const filterRepos = allRepos.filter(({ name }) => !(unwantedReposNames.includes(name)));
+  const allRepos = useSelector(selectRepositories);
+  const filteredRepos = allRepos.filter(({ name }) => !(unwantedReposNames.includes(name)));
 
   return (
     <TilesWrapper>
-      {allRepos.map(repo => (
-        filterRepos.includes(repo) &&
+      {filteredRepos.map(repo => (
         <Tile key={repo.id}>
           <Title>{repo.name}</Title>
           <Description>{repo.description}</Description>
