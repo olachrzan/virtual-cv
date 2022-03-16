@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
-export const TilesWrapper = styled.div`
+export const TilesWrapper = styled.ul`
   margin-top: 24px;
+  padding: 0;
+  list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 32px;
@@ -12,7 +14,7 @@ export const TilesWrapper = styled.div`
   }
 `;
 
-export const Tile = styled.div`
+export const Tile = styled.li`
   max-width: 592px;
   padding: 56px;
   text-align: left;
