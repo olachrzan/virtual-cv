@@ -11,6 +11,7 @@ export const Wrapper = styled.section`
 `;
 
 export const Logo = styled(GithubLogo)`
+  fill: ${({ theme }) => theme.colors.blueElements};
   width: 48px;
   height: 48px;
 

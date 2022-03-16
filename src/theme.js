@@ -14,10 +14,11 @@ export const lightTheme = {
     secondFont: "#252525",
     sectionsBackground: "#FFFFFF",
     switcherBackground: "#E5E5E5",
+    switcherIcon: "#FFFFFF",
+    buttonBorderHover: "#8CC2FF",
     spinnerBorder: "rgba(209, 213, 218, 0.3)",
     tilesBorder: "rgba(209, 213, 218, 0.3)",
     tilesBorderHover: "rgba(3, 102, 214, 0.2)",
-    buttonBorderHover: "#8CC2FF",
   },
 };
 
@@ -30,9 +31,10 @@ export const darkTheme = {
     secondFont: "#FFFFFF",
     sectionsBackground: "#313131",
     switcherBackground: "#6E6E6E",
+    switcherIcon: "#252525",
+    buttonBorderHover: "#6D93BE",
     spinnerBorder: "rgba(54, 54, 54, 0.72);",
     tilesBorder: "rgba(209, 213, 218, 0.1)",
     tilesBorderHover: "rgba(3, 102, 214, 0.5)",
-    buttonBorderHover: "#6D93BE",
   },
 };

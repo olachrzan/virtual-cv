@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { ReactComponent as SunIcon } from "./sun.svg";
 
 export const SwitcherArea = styled.div`
   margin-bottom: 30px;
@@ -43,4 +44,8 @@ export const Icon = styled.div`
   ${({ darkMode }) => darkMode && css`
     transform: translate(20px);
   `}
+`;
+
+export const Sun = styled(SunIcon)`
+  fill: ${({ theme }) => theme.colors.switcherIcon};
 `;
