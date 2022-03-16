@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { ReactComponent as Github } from "./logos/github_black.svg";
-import { ReactComponent as LinkedIn } from "./logos/linkedIN_black.svg";
-import { ReactComponent as Facebook } from "./logos/facebook_black.svg";
+import { ReactComponent as Github } from "./logos/githubBlack.svg";
+import { ReactComponent as LinkedIn } from "./logos/linkedInBlack.svg";
+import { ReactComponent as Facebook } from "./logos/facebookBlack.svg";
 
 export const LetsTalk = styled.p`
   margin-bottom: 24px;

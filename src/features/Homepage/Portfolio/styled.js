@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GithubLogo } from "./github_blue.svg";
+import { ReactComponent as GithubLogo } from "./githubBlue.svg";
 
 export const Wrapper = styled.section`
   margin-bottom: 140px;

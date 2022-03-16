@@ -1,8 +1,8 @@
 import { useSelector } from "react-redux";
 import { selectDarkMode } from "../../../../common/ThemeSwitcher/themeSwitcherSlice";
 import { ButtonLink } from "../../ButtonLink/styled";
-import { ReactComponent as DangerDark } from "./danger_lightMode.svg";
-import { ReactComponent as DangerLight } from "./danger_darkMode.svg";
+import { ReactComponent as DangerDark } from "./dangerLightMode.svg";
+import { ReactComponent as DangerLight } from "./dangerDarkMode.svg";
 import { Text, Title, Wrapper } from "./styled";
 
 export const Error = () => {
