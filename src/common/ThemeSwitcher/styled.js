@@ -35,7 +35,7 @@ export const Switcher = styled.div`
   align-items: center;
 `;
 
-export const Icon = styled.div`
+export const Icon = styled.span`
   width: 20px;
   height: 20px;
   margin: 0 3px;
