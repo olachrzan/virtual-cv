@@ -1,11 +1,14 @@
 import styled, { css } from "styled-components";
 import { ReactComponent as SunIcon } from "./sun.svg";
 
-export const SwitcherArea = styled.div`
-  margin-bottom: 30px;
+export const SwitcherArea = styled.button`
+  position: absolute;
+  right: 0;
+  background-color: transparent;
+  color: ${({ theme }) => theme.colors.mainFont};
+  border: none;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   cursor: pointer;
 `;
 

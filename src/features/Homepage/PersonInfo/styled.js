@@ -3,6 +3,7 @@ import { ButtonLink } from "../ButtonLink/styled";
 import { ReactComponent as Message } from "./message.svg";
 
 export const Wrapper = styled.header`
+  padding-top: 30px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-gap: 66px;
