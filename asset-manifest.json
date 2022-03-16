@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.js": "/virtual_cv/static/js/main.ef1cd701.js",
+    "main.js": "/virtual_cv/static/js/main.8f670f51.js",
     "static/js/787.461d9673.chunk.js": "/virtual_cv/static/js/787.461d9673.chunk.js",
     "static/media/personPhoto.jpg": "/virtual_cv/static/media/personPhoto.a5487d77f759fc02164d.jpg",
-    "static/media/github_black.svg": "/virtual_cv/static/media/github_black.1dc2dd2ecd6a455ce385b05be499df6e.svg",
+    "static/media/githubBlack.svg": "/virtual_cv/static/media/githubBlack.1dc2dd2ecd6a455ce385b05be499df6e.svg",
     "static/media/sun.svg": "/virtual_cv/static/media/sun.f7c544a7148ec42f4151036378c7d40c.svg",
-    "static/media/github_blue.svg": "/virtual_cv/static/media/github_blue.af0b0eb0e8a1f9d9eb22f83c7f81528b.svg",
-    "static/media/linkedIN_black.svg": "/virtual_cv/static/media/linkedIN_black.9f38a04c76c9595b2da81e0828807b47.svg",
-    "static/media/danger_lightMode.svg": "/virtual_cv/static/media/danger_lightMode.368eab1b87e3c2785bab7da11c278b44.svg",
-    "static/media/danger_darkMode.svg": "/virtual_cv/static/media/danger_darkMode.ce98882d7d1dcd6d2ab7be4e887717c3.svg",
+    "static/media/githubBlue.svg": "/virtual_cv/static/media/githubBlue.af0b0eb0e8a1f9d9eb22f83c7f81528b.svg",
+    "static/media/linkedInBlack.svg": "/virtual_cv/static/media/linkedInBlack.9f38a04c76c9595b2da81e0828807b47.svg",
+    "static/media/dangerLightMode.svg": "/virtual_cv/static/media/dangerLightMode.368eab1b87e3c2785bab7da11c278b44.svg",
+    "static/media/dangerDarkMode.svg": "/virtual_cv/static/media/dangerDarkMode.ce98882d7d1dcd6d2ab7be4e887717c3.svg",
     "index.html": "/virtual_cv/index.html",
     "static/media/message.svg": "/virtual_cv/static/media/message.514461521cb8d76b55e16ac430346abb.svg",
-    "static/media/facebook_black.svg": "/virtual_cv/static/media/facebook_black.c86c9160f434f5f752b172ce0fe890d9.svg",
-    "main.ef1cd701.js.map": "/virtual_cv/static/js/main.ef1cd701.js.map",
+    "static/media/facebookBlack.svg": "/virtual_cv/static/media/facebookBlack.c86c9160f434f5f752b172ce0fe890d9.svg",
+    "main.8f670f51.js.map": "/virtual_cv/static/js/main.8f670f51.js.map",
     "787.461d9673.chunk.js.map": "/virtual_cv/static/js/787.461d9673.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.ef1cd701.js"
+    "static/js/main.8f670f51.js"
   ]
 }
