@@ -13,7 +13,7 @@ If you want to know what I can do or what I want to learn, take a look.<br/>You 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo
-You can find the demo [here](https://olachrzan.github.io/virtual_cv/)
+You can find the demo [here](https://olachrzan.github.io/virtual-cv/)
 
 ## Technologies
 - HTML
